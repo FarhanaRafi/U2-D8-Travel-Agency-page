@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704__480.jpg);
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+#card1{
+    
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-image: url(https://globalgrasshopper.com/wp-content/uploads/2014/06/most-beautiful-places-to-visit-in-Norway-1-1000x688.jpg);
+}
+#card2{
+    background-image: url(https://lp-cms-production.imgix.net/features/2017/11/GettyRF_543346423-1-ab159824d5bd.jpg);
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+#card3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMWky_4Q0C0_Q1v8s6bJhr9lVIQxB308fE8nwP3JX5bvn-Xr4neoVvfrqk6ZQeseeo6JM&usqp=CAU);
+    background-size: 100% 100%;
+    object-fit: cover;  
+}
+#card4{
+    background-image: url(https://i.natgeofe.com/n/7d59bf92-a500-4eab-81cb-997a38ce7403/iceland_NationalGeographic_2168279_3x4.jpg);
+    background-size: 100% 100%;
+    object-fit: cover;  
+}
+#card5,#card6,#card7,#card8,#card9,#card10{
+    background-size: 100% 100%;
+    object-fit: cover; 
+}
+#card5{
+    background-image: url(https://images.prismic.io/visiticeland/13eed82e-ff5b-4f56-95aa-88323a583a67_Kirkjufell_Northern%20Lights_3000.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=3000&h=2000);
+}
+#card6{
+    background-image: url(https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2012/10/thumb_720_450_782.jpg);
+}
+#card7{
+    background-image: url(https://deih43ym53wif.cloudfront.net/cappadocia-turkey-shutterstock_1320608780_9fc0781106.jpeg);
+}
+#card8{
+    background-image: url(https://images.unsplash.com/photo-1564594736624-def7a10ab047?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+}
+#card9{
+    background-image: url(https://cdn.britannica.com/79/124479-050-DD359499/Ljubljana-Slovenia.jpg);
+}
+#card10{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/af/All_Gizah_Pyramids.jpg);
+}
