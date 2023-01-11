@@ -1,6 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap'); 
  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
- 
+
 body {
     font-family: 'Caveat', cursive;
     background-image: url("https://visitabudhabi.ae/-/media/project/vad/plan-your-trip/article-hub/best-beaches-in-abu-dhabi/article/1-kai-beach.jpg");
@@ -11,6 +11,14 @@ body {
     background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/08/travel-wallpaper-20080613561232.jpg);
     background-size: 100% 100%;
     object-fit: cover;
+}
+
+#logo{
+    font-family: 'Caveat', cursive;
+    color: rgb(1, 134, 160); 
+}
+nav li a{
+    font-family: 'Courgette', cursive;
 }
 h2{
     font-family: 'Courgette', cursive;
