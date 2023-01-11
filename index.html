@@ -190,7 +190,7 @@
         </div>
     </div>
 
-    <div class="container shadow-lg p-3 mb-5 bg-white rounded mt-5 d-none d-md-block d-lg-block">
+    <div class="container shadow-lg p-3 mb-5 bg-white rounded mt-5 d-none d-md-block d-lg-block delete">
         <h2>Deal of the day</h2>
         <div class="row mt-4" id="day-deal">
 
@@ -212,20 +212,21 @@
         </div>
     </div>
 
-    <div class="container shadow-lg p-3 mb-5 bg-white rounded mt-5">
+    <div class="container shadow-lg p-3 mb-5 bg-white rounded mt-5 delete">
         <h2 class="mb-4">Last Minute
-
             <button class="btn btn-secondary float-right" type="button" data-toggle="collapse"
                 data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                 <i class="bi bi-arrows-collapse"></i>
             </button>
         </h2>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 collapse show" id="collapseExample" id="last-min">
-
-            <div class="col mb-4 ">
-                <div class="card h-100">
+            <div class="col mb-4">
+                <div class="card h-100 hot-deal">
+                    <a href="#">
+                        <!-- <span class="badge position-absolute badge-danger">HOT</span> -->
                     <img src="https://cdn.internationalliving.com/wp-content/uploads/2020/02/Germany-1.jpg"
                         class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title text-center">Germany</h5>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus veniam
@@ -234,9 +235,12 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card h-100 hot-deal">
+                    <a href="#">
+                        <!-- <span class="badge"></span> -->
                     <img src="https://i.natgeofe.com/k/54b5e731-f8d6-4a93-92e0-b7b137cac411/france-champs-elysees-paris.jpg?w=636&h=358"
                         class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title text-center">France</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas numquam odio
@@ -245,9 +249,12 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card h-100 hot-deal">
+                    <a href="#">
+                        <!-- <span class="badge"></span> -->
                     <img src="https://cdn.mos.cms.futurecdn.net/3FnczamRyWU6MvRMEXWaGD.jpg" class="card-img-top"
                         alt="...">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title text-center">India</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
@@ -256,11 +263,14 @@
                 </div>
             </div>
             <div class="col mb-4">
-                <div class="card h-100">
+                <div class="card h-100 hot-deal">
+                    <a href="#">
+                        <span class="badge"></span>
                     <img src="https://www.state.gov/wp-content/uploads/2018/11/Slovenia-2560x1395.jpg"
                         class="card-img-top" alt="...">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title text-center">Bled</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                     </div>
@@ -269,7 +279,7 @@
         </div>
     </div>
 
-    <div class="container" id="reviews">
+    <div class="container delete" id="reviews">
         <h2 class="mb-4">Testimonial</h2>
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
